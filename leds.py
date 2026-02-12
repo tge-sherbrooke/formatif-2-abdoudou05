@@ -10,6 +10,7 @@
 import time
 import board
 import digitalio
+import RPI.GPIO
 
 # Définition des pins GPIO
 led_rouge = digitalio.DigitalInOut(board.D17)
